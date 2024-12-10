@@ -1,0 +1,50 @@
+.DS_Store
+/node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Electron-builder output
+/dist_electron
+
+/repo-local
+/repo-shared
+.browserslistrc
+
+workspace.code-workspace
+
+package-lock.json
+
+yarn.lock
+
+config.json
+src/default.json
+src/config/default.json
+src/rabejs/rabejs.node
+
+test/repo-shared/
+test/repo-local/
+
+test-pp/repo-local/
+
+test-pp/repo-shared/
+
+test/tmp/
